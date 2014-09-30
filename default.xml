@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod" />
+           
+  <remote  name="sm-bb"
+           fetch="https://bitbucket.org/SaberTeam/" />
+
+  <default revision="master"
+           remote="sm"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="manifest" name="Linux-manifest" />
+
+  <project path="linux-stable" name="Linux-stable" revision="sm-linux-3.16.y" />
+
+  <project path="linux-stable/x86_64-linux-4.9" name="x86_64-linux-4.9" remote="sm-bb" />
+
+</manifest>

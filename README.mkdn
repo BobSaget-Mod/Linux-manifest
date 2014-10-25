@@ -33,9 +33,7 @@ Now enter the following to initialize the repository:
 
 To initialize your local repository for building the kernel, use a command like this:
 
-    repo init -u git://github.com/SaberMod/Linux_manifest.git
-    
-Note:  For Ubuntu 14.04 use "-b sm-linux-3.16.y-ubuntu-14.04" instead
+    repo init -u git://github.com/SaberMod/Linux_manifest.git -b master
 
 Then to sync up:
 

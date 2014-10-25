@@ -1,0 +1,45 @@
+SaberMod Linux Kernel 
+=====================
+Latest stable Linux kernel with some modifications, as well as a SaberMod toolchain.
+
+Create the Directories
+----------------------
+
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin
+    mkdir -p ~/kernel
+
+
+Getting Started
+---------------
+
+Enter the following to download the "repo" binary and make it executable:
+
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd ~/kernel
+
+
+To initialize your local repository for building the kernel, use a command like this:
+
+    repo init -u git://github.com/SaberMod/Linux_manifest.git
+
+Then to sync up:
+
+    repo sync
+
+
+Building the Kernel
+--------------------
+
+To build the kernel for Ubuntu, run the script by executing the following command from your working directory
+
+    . ubuntu
+
+Wait for the build to finish, and the root password when asked to install the kernel.

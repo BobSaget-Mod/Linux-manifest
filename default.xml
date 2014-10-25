@@ -12,7 +12,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="manifest" name="Linux-manifest" />
+  <project path="manifest" name="Linux-manifest" >
         <copyfile src="ubuntu" dest="ubuntu" />
   </project>
 

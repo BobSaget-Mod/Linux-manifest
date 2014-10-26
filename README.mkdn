@@ -2,6 +2,26 @@ SaberMod Linux Kernel
 =====================
 Latest stable Linux kernel with some modifications, as well as a SaberMod toolchain.
 
+Prerequisites
+----------------------
+
+You may need some additional libraries to use the included toolchain during compilation.  It is a good idea to make sure you have these packages installed to assist the graphite flags being used at runtime.
+
+Tested on Ubuntu the following packages are available:
+
+    * libcloog-isl-dev
+      Is a set of libraries for graphite that are used during run-time.
+
+    * libcap-dev
+      Installs a missing header capability.h file.
+
+    * liblz4-dev
+      Installs lz4 compression libraries needed to compile the kernel binary image.
+
+So for example:
+
+    sudo apt-get install libcloog-isl-dev libcap-dev liblz4-dev
+
 Create the Directories
 ----------------------
 

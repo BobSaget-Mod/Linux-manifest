@@ -26,7 +26,7 @@ If you haven't installed repo before, or it is not working fix it using this:
     
 The first part of the command adds repo to your PATH everytime you open terminal, and the second part adds it for the current terminal session so you don't have to close and re-open.
 
-Now enter the following to initialize the repository:
+Now enter your kernel directory:
 
     cd ~/kernel
 

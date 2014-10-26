@@ -13,7 +13,7 @@
            sync-j="4" />
 
   <project path="manifest" name="Linux-manifest" >
-        <copyfile src="ubuntu" dest="ubuntu" />
+        <copyfile src="scripts/ubuntu" dest="ubuntu" />
   </project>
 
   <project path="linux-stable" name="Linux-stable" revision="sm-linux-3.16.y" />

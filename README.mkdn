@@ -17,10 +17,13 @@ Tested on Ubuntu the following packages are available:
 
     * liblz4-dev
       Installs lz4 compression libraries needed to compile the kernel binary image.
+      
+    * liblz4-tool
+      Installs the lz4c compression tool needed to utilize lz4 libraries.
 
 So for example:
 
-    sudo apt-get install libcloog-isl-dev libcap-dev liblz4-dev
+    sudo apt-get install libcloog-isl-dev libcap-dev liblz4-tool liblz4-dev
 
 Create the Directories
 ----------------------
